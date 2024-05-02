@@ -17,7 +17,7 @@
     <header>
       <section id="home">
         <nav>
-          <ul>
+          <ul class="nav-menu flex justify-center">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -27,80 +27,63 @@
       </section>
     </header>
     <main>
-      <section>
+      <section id="hero">
         <!--hero-->
         <div>
-          <div>
+          <div class="hero-1">
             <h3>Hi, I'm Nome Cognome 👋</h3>
           </div>
-          <div>
-            <h1>A Web Developer based in Italy</h1>
+          <div class="hero-2">
+            <h1>A Web Developer</h1>
           </div>
-          <div>
+          <div class="hero-3">
             <p>
-              Welcome to my portfolio website! Explore my projects and learn
-              more about my skills and experience.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              necessitatibus harum ipsam tempora doloremque quae eos eligendi
+              rerum.
             </p>
           </div>
         </div>
       </section>
-      <section id="about"> <!--about-->
-        <div>
-          <div>
+      <section id="about">
+        <!--about-->
+        <div class="grid-about">
+          <div class="about-1">
             <h2>Get to know me</h2>
           </div>
-          <div>
-            <ul>
-              <li>
-                <a href="link social esempio"
-                  ><i
-                    class="fa-brands fa-linkedin fa-lg"
-                    style="color: #0000f3"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <a href="link social esempio"
-                  ><i
-                    class="fa-brands fa-twitter fa-lg"
-                    style="color: #0000f3"
-                  ></i
-                ></a>
-              </li>
-              <li>
-                <a href="link social esempio"
-                  ><i
-                    class="fa-brands fa-github fa-lg"
-                    style="color: #0000f3"
-                  ></i
-                ></a>
-              </li>
-            </ul>
+          <div class="about-2">
+            <p>
+              Ciao! Sono Nome e Cognome, uno sviluppatore web appassionato e
+              creativo con una solida esperienza nella creazione di esperienze
+              digitali coinvolgenti. Attraverso il mio lavoro, mi impegno a
+              trasformare le idee in realtà, utilizzando le ultime tecnologie e
+              seguendo le migliori pratiche dell'industria. Esplora il mio
+              portfolio per scoprire il mio lavoro e contattami per discutere di
+              come possiamo collaborare insieme!.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate voluptatum modi cupiditate adipisci tempora obcaecati
+              accusamus laudantium atque nesciunt numquam nihil distinctio vero
+              at odit quis in culpa, debitis sed?
+            </p>
+            <div class="flex justify-center button">
+              <button class="button-style">MORE ABOUT ME</button>
+            </div>
           </div>
-        </div>
-        <div>
-          <p>
-            Ciao! Sono Nome e Cognome, uno sviluppatore web appassionato e
-            creativo con una solida esperienza nella creazione di esperienze
-            digitali coinvolgenti. Attraverso il mio lavoro, mi impegno a
-            trasformare le idee in realtà, utilizzando le ultime tecnologie e
-            seguendo le migliori pratiche dell'industria. Esplora il mio
-            portfolio per scoprire il mio lavoro e contattami per discutere di
-            come possiamo collaborare insieme!
-          </p>
         </div>
       </section>
       <section id="projects">
         <!--projects-->
-        <div>
-          <h2>Projects</h2>
-        </div>
-        <div>
-          <div>
-            <!--dovrebbe contenere un immagine, ma utilizzerò uno sfondo colorato con un testo immagine per semplicità-->
-            <p>IMG</p>
+
+        <div class="flex-projects">
+          <div class="flex justify-center flex-50">
+            <img
+              src="./img/img_portfolioProject.jpg"
+              alt="immagine di un computer"
+            />
           </div>
-          <div>
+          <div class="projects-1 flex-50">
             <h3>Nome progetto</h3>
             <p>
               Descrizione del progetto esempio. Lorem ipsum dolor sit, amet
@@ -108,41 +91,44 @@
               dignissimos, dolorum exercitationem illo explicabo possimus esse
               aut doloribus nihil modi quam aliquid.
             </p>
-            <button>more info</button>
+            <div class="button-2">
+              <button class="button-style">VIEW PROJECT</button>
+            </div>
           </div>
         </div>
-        <div>
-          <div>
-            <!--dovrebbe contenere un immagine, ma utilizzerò uno sfondo colorato con un testo immagine per semplicità-->
-            <h3>Nome progetto 2</h3>
+        <div class="flex-projects">
+          <div class="projects-1 flex-50">
+            <h3>Nome progetto</h3>
             <p>
-              Descrizione del progetto esempio. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Aut odit facere ratione ex dolor
-              animi est repellendus? Odio nihil facere quidem distinctio
-              perspiciatis repellat et?
+              Descrizione del progetto esempio. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Porro nisi itaque labore
+              dignissimos, dolorum exercitationem illo explicabo possimus esse
+              aut doloribus nihil modi quam aliquid.
             </p>
-            <button>more info</button>
+            <div class="button-2">
+              <button class="button-style">VIEW PROJECT</button>
+            </div>
           </div>
-          <div>
-            <p>IMG</p>
+          <div class="flex justify-center flex-50">
+            <img
+              src="./img/img_portfolioProject.jpg"
+              alt="immagine di un computer"
+            />
           </div>
         </div>
       </section>
-      <section id="skills">
-        <!--skills-->
-        <div>
-          <div>
-            <h2>Some of my skills</h2>
-          </div>
-          <div>
-            <button>HTML</button>
-            <button>CSS</button>
-            <button>JAVASCRIPT</button>
-            <button>PHP</button>
-            <button>JAVA</button>
-            <button>REACT</button>
-          </div>
-        </div>
+      <section id="skills"><!--skills-->
+        <h2 class="skills-1">Some of my skills</h2>           
+          <div class="skills-2 flex"> 
+            <div class="button-skills flex-button">
+              <button>HTML</button>
+              <button>CSS</button>
+              <button>JAVASCRIPT</button>
+              <button>JAVA</button>
+              <button>REACT</button>
+              <button>PHP</button>
+            </div>
+          </div> 
       </section>
       <section id="contacts">
         <!--contact-->
