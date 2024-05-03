@@ -57,7 +57,7 @@
 .hero-3 p {
     font-size: 1.3rem;
     padding: 3rem 0 2rem 3rem;
-    width: 50%;
+    width: 70%;
 }
 
 /*ABOUT*/
@@ -196,4 +196,97 @@
     color: white;
 }
 
+/*client reviews*/
 
+#reviews {
+    background-color: #5205FF;
+    color: white;
+    padding: 4rem 0;
+}
+
+.reviews-1 {
+    width: 40%;
+}
+
+.reviews-1 h2 {
+    font-size: 3.5rem;
+    padding: 6rem 5rem;
+    
+}
+
+.reviews-2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-2 p {
+    margin: 2rem 2rem;
+    line-height: 1.7rem;
+    width: 80%;
+    align-content: center;
+}
+
+/*contacts*/
+
+.contacts-1 {
+    width: 60%;
+    padding: 3rem;
+}
+
+.contacts-1 h2 {
+    font-size: 1.5rem;
+    color: #0000F3;
+    padding-bottom: 0.5rem;
+}
+
+.contacts-1 p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contacts-2 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-2 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.contacts-2 ul li {
+    margin-right: 3rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #161125;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+ }   
+
+footer nav ul li {
+    display: inline;
+    margin-inline: 1rem;
+    
+}
+
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Spinge il div .copy fino alla fine del footer */
+}
