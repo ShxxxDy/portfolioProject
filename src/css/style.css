@@ -1,0 +1,292 @@
+* {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify {
+    justify-content: space-evenly;
+}
+
+/*NAV BAR*/
+
+#home {
+    background-color: #0000F3;
+    height: 20vh;
+}
+
+.nav-menu li {
+    padding: 1.3rem 2rem;
+    list-style-type: none;    
+}
+
+.nav-menu li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/*HERO*/
+
+#hero {
+    background-color: #0000F3;
+    color: white;
+    height: 80vh;
+}
+
+.hero-1 h3{
+    font-size: 1.5rem;
+    padding: 3rem 0 2rem 3rem;
+}
+
+.hero-2 h1{
+    font-size: 8.5rem;
+    padding-left: 3rem;
+}
+
+.hero-3 p {
+    font-size: 1.3rem;
+    padding: 3rem 0 2rem 3rem;
+    width: 70%;
+}
+
+/*ABOUT*/
+
+#about { 
+    background-color: white;
+}
+
+.grid-about {
+    display: inline-grid;
+    grid-template-columns: 40% 60%;
+}
+
+.about-1 {
+    padding: 6rem 5rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.about-1 h2 {
+    font-size: 3.5rem;
+    color: #0000F3;
+}
+
+.about-2 {
+    padding: 2.5rem;
+}
+
+.about-2 p {
+    margin: 2rem 2rem;
+    line-height: 1.7rem;
+}
+
+.button-style {
+    background-color: #0000F3;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+.button :hover {
+    background-color: #00008C;
+}
+
+.button :active {
+    background-color: #5205FF;
+}
+
+/*PROJECTS*/
+
+.bg-color-projects {
+    color: #0000F3;
+    padding: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.flex-projects{
+    display: flex;
+    align-items: center;
+}
+
+.flex-50 {
+    width: 50%;
+}
+
+.projects-1 h3{
+    font-size: 2.5rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.projects-1 p {
+    margin: 0 2rem 2rem 2rem;
+    line-height: 1.7rem;
+}
+
+.button-2 {
+    margin-left: 2rem;
+}
+
+.button-2 :hover {
+    background-color: #00008C;
+}
+
+.button-2 :active {
+    background-color: #5205FF;
+}
+
+/*SKILLS  */
+
+#skills {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-1 {
+    font-size: 3.5rem;
+    color: #0000F3;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills-2 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}
+
+.button-skills button{
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 0;
+    width: 15%;
+    color: #0000F3;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.button-skills :hover {
+    background-color: #00008C;
+    color: white;
+}
+
+.button-skills :active {
+    background-color: #5205FF;
+    color: white;
+}
+
+/*client reviews*/
+
+#reviews {
+    background-color: #5205FF;
+    color: white;
+    padding: 4rem 0;
+}
+
+.reviews-1 {
+    width: 40%;
+}
+
+.reviews-1 h2 {
+    font-size: 3.5rem;
+    padding: 6rem 5rem;
+    
+}
+
+.reviews-2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-2 p {
+    margin: 2rem 2rem;
+    line-height: 1.7rem;
+    width: 80%;
+    align-content: center;
+}
+
+/*contacts*/
+
+.contacts-1 {
+    width: 60%;
+    padding: 3rem;
+}
+
+.contacts-1 h2 {
+    font-size: 1.5rem;
+    color: #0000F3;
+    padding-bottom: 0.5rem;
+}
+
+.contacts-1 p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contacts-2 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-2 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.contacts-2 ul li {
+    margin-right: 3rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #161125;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+ }   
+
+footer nav ul li {
+    display: inline;
+    margin-inline: 1rem;
+    
+}
+
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Spinge il div .copy fino alla fine del footer */
+}
