@@ -27,7 +27,7 @@
 
 #home {
   background-color: #0000f3;
-  height: 20vh;
+  height: 7rem;
   width: 100%;
 }
 
@@ -42,7 +42,7 @@
   color: white;
 }
 
-@media screen and (min-width: 550px) and (max-width: 700px) {
+@media screen and (min-width: 480px) and (max-width: 700px) {
   .nav-menu li a {
     font-size: 1rem;
     font-weight: bold;
@@ -51,24 +51,48 @@
   .nav-menu li {
     padding: 1rem 1.5rem;
   }
+
+  #home {
+    height: 5rem;
+  }
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (min-width:375px) and (max-width: 479px) {
   .nav-menu li a {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
   }
 
   .nav-menu li {
-    padding: 0;
+    padding: 1rem 1rem;
+  }
+
+  #home {
+    height: 4rem;
   }
 }
+
+@media screen and (max-width: 374px) {
+    .nav-menu li a {
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+    
+      .nav-menu li {
+        padding: 1rem 0.8rem;
+      }
+
+      #home {
+        height: 3.5rem;
+      }
+}
+
 /*HERO*/
 
 #hero {
   background-color: #0000f3;
   color: white;
-  height: 80vh;
+  height: 40rem;
   width: 100%;
 }
 
@@ -92,6 +116,10 @@
   .hero-2 h1 {
     font-size: 5.9rem;
   }
+
+  #hero {
+    height: 33rem;
+  }
 }
 
 @media screen and (min-width: 580px) and (max-width: 700px) {
@@ -109,27 +137,94 @@
     font-size: 1.1rem;
     padding: 2rem 0 2rem 2rem;
   }
+
+  #hero {
+    height: 30rem;
+  }
 }
 
-@media screen and (max-width: 579px) {
+@media screen and (min-width: 440px) and (max-width: 579px) {
   .hero-1 h3 {
-    font-size: 0.5rem;
-    padding: 0;
-    /* margin: 0 0 2rem 1.5rem;*/
+    font-size: 1rem;
+    padding: 1.5rem 0 2rem 2rem;
   }
 
   .hero-2 h1 {
-    font-size: 1rem;
-    padding-left: 0;
-    /* margin: 1.5rem;*/
+    font-size: 5rem;
+    padding-left: 1.5rem;
   }
 
   .hero-3 p {
-    font-size: 0.5rem;
-    padding: 0;
-    /* margin: 1.5rem 0 2rem 1.5rem;*/
+    font-size: 1rem;
+    padding: 1.5rem 0 2rem 2rem;
     font-weight: bold;
   }
+
+ #hero {
+    height: 29rem;
+  }
+}
+
+@media screen and (min-width: 365px) and (max-width: 439px) {
+    .hero-1 h3 {
+        font-size: 1rem;
+        padding: 1rem 0 2rem 1.5rem;
+      }
+    
+      .hero-2 h1 {
+        font-size: 4rem;
+        padding-left: 1.5rem;
+      }
+    
+      .hero-3 p {
+        font-size: 1rem;
+        padding: 2rem 0 2rem 1.5rem;
+        font-weight: bold;
+      }
+
+      #hero {
+        height: 28rem;
+      }
+}
+
+@media screen and (max-width: 364px) {
+    .hero-1 h3 {
+        font-size: 0.9rem;
+        padding: 1rem 0 2rem 1rem;
+      }
+    
+      .hero-2 h1 {
+        font-size: 3.5rem;
+        padding-left: 1rem;
+      }
+    
+      .hero-3 p {
+        font-size: 1rem;
+        padding: 2rem 0 2rem 1rem;
+        font-weight: bold;
+      }
+
+      #hero {
+        height: 28rem;
+      }
+}
+
+@media screen and (max-width: 439px) {
+    .hero-1 h3 {
+        font-size: 0.9rem;
+        padding: 1rem 0 2rem 1rem;
+      }
+    
+      .hero-2 h1 {
+        font-size: 3.5rem;
+        padding-left: 1rem;
+      }
+    
+      .hero-3 p {
+        font-size: 1rem;
+        padding: 2rem 0 2rem 1rem;
+        font-weight: bold;
+      }
 }
 
 /*ABOUT*/
@@ -185,7 +280,7 @@
   background-color: #5205ff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
   .about-padding {
     padding: 5rem 0;
   }
@@ -203,6 +298,59 @@
   }
 }
 
+@media screen and (min-width: 440px) and (max-width: 599px) {
+    .about-padding {
+        padding: 3rem 0;
+      }
+    
+      .about-1 {
+        width: 100%;
+      }
+
+      .about-1 h2 {
+        font-size: 3rem;
+      }
+    
+      .about-2 {
+        width: 100%;
+      }
+
+      .about-2 p {
+        padding: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+}
+
+@media screen and (max-width: 439px) {
+    .about-padding {
+        padding: 2rem 0;
+      }
+    
+      .about-1 {
+        width: 100%;
+      }
+
+      .about-1 h2 {
+        font-size: 2.5rem;
+      }
+    
+      .about-2 {
+        width: 100%;
+      }
+
+      .about-2 p {
+        padding: 1rem;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+
+      .button-style {
+        font-size: 0.8rem;
+      }
+}
 /*PROJECTS*/
 
 .bg-color-projects {
@@ -276,7 +424,7 @@
 /*SKILLS  */
 
 #skills {
-  height: 75vh;
+  height: 35rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,7 +479,32 @@
     margin-right: 1rem; /* margine tra i bottoni */
     margin-bottom: 2rem; /* margine tra le righe di bottoni */
   }
+
+  #skills {
+    height: 30rem;
+  }
 }
+
+@media screen and (max-width: 440px){
+    .button-skills button {
+        width: calc(
+          50% - 1rem
+        ); /* calcola il 33.33% della larghezza del contenitore meno un margine */
+        margin-right: 1rem; /* margine tra i bottoni */
+        margin-bottom: 2rem; /* margine tra le righe di bottoni */
+    }
+
+    .skills-1 {
+        padding-top: 5rem;
+        font-size: 3rem;
+    }
+}
+
+/*@media screen and (max-width: 650px) and (orientation: landscape) {
+    #skills {
+        height: fit-content;
+    }
+}*/
 
 /*client reviews*/
 
@@ -349,7 +522,6 @@
 
 .reviews-1 h2 {
   font-size: 3.5rem;
-  padding-left: 2rem;
   text-align: center;
 }
 
@@ -377,6 +549,27 @@
     padding: 5rem 0;
     font-size: 1rem;
   }
+}
+
+@media screen and (max-width: 600px){
+    .reviews-1 {
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .reviews-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .reviews-1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .reviews-2 p {
+        font-size: 0.9rem;
+    }
 }
 
 /*contacts*/
@@ -411,6 +604,67 @@
 
 .contacts-2 ul li {
   margin-right: 3rem;
+}
+
+@media screen and (min-width: 551px) and (max-width: 700px) {
+  .contacts-1 p {
+    font-size: 2rem;
+    padding: 0 0 3rem 2rem;
+  }
+
+  .contacts-1 h2 {
+    padding: 3rem 0 0.5rem 2rem;
+  }
+
+  .contacts-2 i {
+    font-size: 1.4rem;
+  }
+
+  .contacts-2 ul li {
+    margin-right: 2rem;
+  }
+}
+
+@media screen  and (min-width: 431px) and (max-width: 550px) {
+ 
+  .contacts-1 p {
+    font-size: 1.8rem;
+    padding: 0 0 3rem 1rem;
+  }
+
+  .contacts-1 h2 {
+    padding: 3rem 0 0.5rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .contacts-2 i {
+    font-size: 1.3rem;
+  }
+
+  .contacts-2 ul li {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contacts-1 p {
+    font-size: 1.8rem;
+    padding: 0 0 3rem 1rem;
+  }
+
+  .contacts-1 h2 {
+    padding: 3rem 0 0.5rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .contacts-1 {
+    width: 100%;
+  }
+  
+  .contacts-2 {
+    display: none;
+  }
+
 }
 
 /*footer*/
@@ -473,4 +727,41 @@ footer nav ul li:last-child {
   footer nav ul li a {
     font-size: 0.9rem;
   }
+}
+
+
+@media screen and (min-width: 550px) and (max-width:650px) {
+    footer {
+        padding: 1rem 0.2rem;
+      }
+    
+      footer nav ul li {
+        margin-inline: 0.3rem;
+      }
+    
+      .copy p {
+        font-size: 0.8rem;
+      }
+    
+      footer nav ul li a {
+        font-size: 0.8rem;
+      }
+}
+
+@media screen and (max-width:549px) {
+    footer {
+        padding: 1rem 0.2rem;
+      }
+    
+      .copy p {
+        font-size: 0.7rem;
+      }
+
+      .footer-link {
+        display: none;
+      }
+
+      .copy {
+        width: 100%;
+      }
 }
